@@ -1,0 +1,99 @@
+/* Set the background color and font for the entire page */
+body {
+  background-image: url(Images/backgroundImage.webp);
+  background-size: 100% 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header, which contains the title and city logo */
+header {
+  background-image: url(Images/bgImage2.webp);
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0%;
+}
+
+/* Style the navigation menu */
+nav ul {
+  background-color: rgb(250, 184, 252);
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style the individual items in the navigation menu */
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Style the main content section */
+section {
+  margin: 20px;
+}
+
+/* Style images within the .image-gallery section */
+.image-gallery img {
+  width: 250px;
+  margin: 10px;
+}
+
+/* Style the form for hotel booking or contact */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style text and email input fields, and textareas */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Allow textarea to be vertically resizable */
+textarea {
+  resize: vertical;
+}
+
+/* Style the submit button for forms */
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change submit button color on hover */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Center align text within .heritage-list and .image-gallery sections */
+.heritage-list, .image-gallery {
+  text-align: center;
+}
+
+.contact-details{
+  text-align: center;
+}
+
+/* Add more CSS styling as needed */

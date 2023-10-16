@@ -1,0 +1,59 @@
+/* Reset default margin and padding for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color and font for the entire page */
+  body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header with a background color and centered text */
+  header {
+    background-image: url(../Images/backgroundImage.webp);
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 20px;
+    color: black;
+  }
+  
+  /* Style the h1 element within the header */
+  header h1 {
+    font-size: 28px;
+  }
+  
+  /* Style the list (ul) to provide better readability */
+  ul {
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* Style the list items (li) to create a clean, readable structure */
+  li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the strong tags to emphasize key points */
+  li strong {
+    font-weight: bold;
+  }
+  
+  /* Style the images within the header */
+  header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+  }
+  

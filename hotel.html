@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking</title> <!-- Title of the webpage displayed in the browser tab -->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Linking to an external CSS stylesheet for styling -->
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1> <!-- Main heading of the webpage, indicating it's for hotel booking -->
+        <img src="Images/TokyoLogo.png" alt="City Logo"> <!-- Inserting an image with an alt attribute for accessibility -->
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li> <!-- Navigation menu for different sections of the website -->
+            <li><a href="heritage.html">Heritage</a></li>
+            <li><a href="hotel.html">Hotel Booking</a></li> <!-- Highlighting the current page in the navigation menu -->
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <section class="hotel-form">
+        <form>
+            <label for="name">Name:</label> <!-- Label for the name input field -->
+            <input type="text" id="name" name="name" required> <!-- Text input field for the user's name, marked as required -->
+        
+            <label for="email">Email:</label> <!-- Label for the email input field -->
+            <input type="email" id="email" name="email" required> <!-- Email input field, marked as required -->
+        
+            <label for="message">Message:</label> <!-- Label for the message input field -->
+            <textarea id="message" name="message" rows="4" required></textarea> <!-- Textarea for the user's message, marked as required -->
+        
+            <input type="submit" value="Submit"> <!-- Submit button for the form -->
+        </form>
+    </section>
+</body>
+</html>
